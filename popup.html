@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Red Rocket</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="red-rocket">
+      <p class="red-rocket__logo">Red</p>
+      <img class="red-rocket__icon" src="icons/red-rocket__48.png" alt="Red Rocket icon">
+      <p class="red-rocket__logo">Rocket</p>
+    </div>
+    <div class="description">
+      <ul class="description__list">
+        <li class="description__item">Alt + g -> Собирает данные из Аргуса и формирует письмо для эскалации ГП.</li>
+        <li class="description__item">Alt + n -> Вставляет и записывает коммент в Аргус: "Необходимо дозвониться до
+          клиента, при ответе – перевести на 2 ЛТП".</li>
+        <li class="description__item">Alt + x -> Копирует данные из Сипала для формы. </li>
+      </ul>
+    </div>
+    <div class="comment-filter">
+      <div class="comment-filter__item">
+        <input type="checkbox" id="filter" class="comment-filter__input">
+        <label for="filter">Выключить фильтр комментов</label>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

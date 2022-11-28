@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Red Rocket",
+  "version": "1.0",
+  "author": "Gleb Ponomarev",
+  "description": "Extention for Argus. It includes hot keys which help with business process automatization.",
+  "action": {
+    "default_icon": "icons/red-rocket__48.png",
+    "default_title": "Red Rocket",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icons/red-rocket__128.png",
+    "48": "icons/red-rocket__48.png",
+    "16": "icons/red-rocket__16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/argus*/*",
+        "http://sipal.sz.rt.ru/"
+      ],
+      "js": [
+        "js/script.js"
+      ]
+    }
+  ]
+}
